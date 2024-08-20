@@ -90,8 +90,8 @@ console.log("il costo della tua spedizione è: " + spedizione + " euro");
   Alla fine mostra il risultato in console.
 */
 /* SCRIVI QUI LA TUA RISPOSTA */
-let v1 = 2;
-let v2 = 30;
+let v1 = 270;
+let v2 = 3;
 let v3 = 10;
 let x = 0;
 
@@ -120,7 +120,7 @@ console.log(v1 + " " + v2 + " " + v3);
 /* SCRIVI QUI LA TUA RISPOSTA */
 let valore = 6;
 console.log(typeof valore);
-if (typeof valore === "number") {
+if (typeof valore === "number" && !isNaN(parseInt(valore))) {
     console.log(valore + " è di tipo number");
 } else console.log(valore + " non è di tipo number");
 
